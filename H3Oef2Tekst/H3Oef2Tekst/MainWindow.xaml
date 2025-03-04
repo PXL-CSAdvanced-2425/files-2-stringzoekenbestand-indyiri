@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Bestand" HorizontalAlignment="Left" Margin="66,32,0,0" VerticalAlignment="Top" Width="91" FontStyle="Italic"/>
+        <Label Content="String" HorizontalAlignment="Left" Margin="66,107,0,0" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="fileTextBox" HorizontalAlignment="Left" Height="32" Margin="66,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="631"/>
+        <TextBox x:Name="stringTextBox" HorizontalAlignment="Left" Height="32" Margin="66,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="297"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="197" Margin="66,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="525"/>
+        <Button x:Name="searchFileButton" Content="Bestand zoeken" HorizontalAlignment="Left" Margin="618,0,0,0" VerticalAlignment="Center" Height="38" Width="107" Click="searchFileButton_Click"/>
+        <Button x:Name="searchStringButton" Content="String zoeken" HorizontalAlignment="Left" Margin="618,251,0,0" VerticalAlignment="Top" Height="38" Width="107" Click="searchStringButton_Click"/>
 
     </Grid>
 </Window>
